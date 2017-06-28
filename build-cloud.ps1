@@ -45,7 +45,8 @@
         -adminLogin $databaseAdminLogin `
         -password $databaseAdminPassword
 
-    SetupWebApp `        -resourceGroupName $resourceGroupName `
+    SetupWebApp `
+        -resourceGroupName $resourceGroupName `
         -webAppName $webApp `
         -databaseHost $databaseHost `
         -databaseName $databaseName `
